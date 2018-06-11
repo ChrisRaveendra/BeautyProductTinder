@@ -30,15 +30,7 @@ const mapStateToProps = state => {
     };
 };
 
-const mapDispatchToProps = dispatch => {
-    return {
-        // newAppointment: (info) => dispatch({ type: 'NEW_APPOINTMENT', info }),
-        // closeModal: () => dispatch({ type: 'CLOSE_MODAL' }),
-    };
-};
-
 export default connect(
     mapStateToProps,
-    // mapDispatchToProps
     actionCreators
 )(App);
